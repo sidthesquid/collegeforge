@@ -3,7 +3,8 @@ body, html {
   height: 100%;
   font-family: 'Oxygen', sans-serif;
 }
-
+.white {color: white !important;}
+blockquote footer {color: white !important;}
 .nav a {
   color: white !important;
   background: transparent !important;
