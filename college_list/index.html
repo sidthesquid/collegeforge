@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/page.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+    <title>College List</title>
+    <style>
+
+    body {
+        background: url(http://morrisinn.nd.edu/wp-content/uploads/2013/06/ND-Avenue-Spring-2012.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#">CollegeForge</a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/college_list">College List</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+<div class="jumbotron">
+    <div class="heading">
+        <h1>College List</h1>
+    </div>
+</div>
+<div class="container-fluid">
+
+    <div class="col-md-12">
+        <!-- col-lg-4 start here -->
+        <div class="panel panel-default">
+            
+            <div class="list-group">      
+              <input style="width: 100%;" class="list-group-item" placeholder="Search">
+            </div>
+        </div>
+        <div id="selectList">
+            <div class="panel panel-default" >
+                  <div class="list-group"> 
+                      <li class="list-group-item list-group-item-success">UC</li>
+                      <a href="/uci" class="list-group-item">UC Irvine</a>
+                      <a href="/ucsd" class="list-group-item">UC San Diego</a>
+                      <a href="/ucb" class="list-group-item">UC Berkeley</a>
+                  </div>
+            </div>
+            <div class="panel panel-default" >
+                  <div class="list-group" >
+                      <li class="list-group-item list-group-item-info">Private</li>
+                      <a href="/usc" class="list-group-item">
+                        USC
+                      </a>
+                      <a href="/stanford" class="list-group-item">
+                        Stanford
+                      </a>
+                      <a href="/harvard" class="list-group-item">Harvard</a>
+                      <a href="/nyu" class="list-group-item">New York University</a>
+                      <a href="/mit" class="list-group-item">Massachusetts Institute of Technology</a>
+                      <a href="/cmu" class="list-group-item">Carnegie Mellon University</a>
+                      <a href="/pomona" class="list-group-item">Pomona</a>
+                  </div>
+            </div>
+            <div class="panel panel-default">
+                  <div class="list-group">
+                      <li class="list-group-item list-group-item-danger">CSU/Out of State</li>
+                      <a href="/calpoly" class="list-group-item">California Polytechnic University SLO</a>
+                      
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<script src="/js/filter.js"></script>
+
+</body>
+</html>

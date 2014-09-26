@@ -1,0 +1,25 @@
+
+.fa-edit {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.fa-cloud {
+  color: #2980b9;
+}
+.heading {
+  padding-top: 0%;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+blockquote {
+
+    border-left: 0px solid #EEE;
+}
+body {
+	color: white;
+}
+
+blockquote footer {
+	color: white;
+}
